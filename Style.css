@@ -1,102 +1,107 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  font-family: Inter, Arial, sans-serif;
-  background: #0f172a;
-  color: #e5e7eb;
-  line-height: 1.6;
+    margin: 0;
+    font-family: Inter, Arial, sans-serif;
+    background: #0f172a;
+    color: #e5e7eb;
+    line-height: 1.6;
 }
 
 .container {
-  max-width: 900px;
-  margin: auto;
-  padding: 60px 20px;
+    max-width: 950px;
+    margin: auto;
+    padding: 60px 20px;
 }
 
 .hero h1 {
-  font-size: 3rem;
-  margin-bottom: 10px;
+    font-size: 3rem;
 }
 
 .hero h2 {
-  font-size: 1.3rem;
-  font-weight: 400;
-  color: #38bdf8;
+    color: #38bdf8;
+    font-weight: 400;
 }
 
 .hero p {
-  margin-top: 20px;
-  max-width: 700px;
+    max-width: 750px;
 }
 
 .buttons {
-  margin-top: 30px;
+    margin-top: 25px;
 }
 
 .btn {
-  display: inline-block;
-  padding: 12px 20px;
-  margin-right: 10px;
-  background: #38bdf8;
-  color: #020617;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: 600;
+    padding: 12px 20px;
+    background: #38bdf8;
+    color: #020617;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    margin-right: 10px;
 }
 
 .btn.outline {
-  background: transparent;
-  border: 1px solid #38bdf8;
-  color: #38bdf8;
+    background: transparent;
+    border: 1px solid #38bdf8;
+    color: #38bdf8;
 }
 
 section {
-  margin-top: 70px;
+    margin-top: 70px;
 }
 
 h3 {
-  font-size: 1.6rem;
-  margin-bottom: 20px;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
 }
 
 .skills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .skills span {
-  background: #020617;
-  border: 1px solid #1e293b;
-  padding: 8px 14px;
-  border-radius: 20px;
-  font-size: 0.9rem;
+    background: #020617;
+    border: 1px solid #1e293b;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
 }
 
 .project {
-  background: #020617;
-  border: 1px solid #1e293b;
-  padding: 20px;
-  border-radius: 10px;
-  margin-bottom: 20px;
+    background: #020617;
+    border: 1px solid #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .project h4 {
-  margin: 0 0 8px;
-  color: #38bdf8;
+    margin-bottom: 5px;
+    color: #38bdf8;
+}
+
+.meta {
+    font-size: 0.9rem;
+    color: #94a3b8;
+}
+
+ul {
+    padding-left: 18px;
 }
 
 a {
-  color: #38bdf8;
-  text-decoration: none;
+    color: #38bdf8;
+    text-decoration: none;
 }
 
 footer {
-  margin-top: 80px;
-  text-align: center;
-  font-size: 0.9rem;
-  color: #94a3b8;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #94a3b8;
 }
